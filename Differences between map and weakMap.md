@@ -65,7 +65,7 @@ The purpose of WeakMap is to store some data on an object sometimes, but this wi
 
 And WeakMap **the objects referenced by key names are all weak references. **, that is, the garbage collection mechanism does not take this reference into account. Therefore, as long as other references of the referenced object are cleared, the garbage collection mechanism releases the memory occupied by the object. That is to say, once it is no longer needed, WeakMap **the key name object and the corresponding key-value pair disappear automatically. You do not need to delete the reference manually. **
 
-**Summary: **
+**Summary**
 
 - Map data structure. It is similar to an object and is also a set of correct key values. However, the range of "keys" is not limited to strings. Various types of values (including objects) can be treated as keys.
 - The WeakMap structure is similar to the Map structure and is also used to generate the correct set of key values. However, WeakMap only accept objects as key names (except null) and do not accept other types of values as key names. The objects pointed to by the key name of the WeakMap are not included in the garbage collection mechanism.
